@@ -46,7 +46,7 @@ public class SsoConfig extends WebSecurityConfigurerAdapter {
                 .keyPassword(password)
                 .and()
                 .protocol("https")
-                .hostname(String.format("%s:%s", "localhost", port))
+                .hostname(String.format("%s:%s", "full-pipeline.herokuapp.com", port))
                 .basePath("/")
                 .and()
                 .identityProvider()
