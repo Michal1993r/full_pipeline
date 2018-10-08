@@ -1,0 +1,3 @@
+security:
+  saml2:
+    hostname: full-pipeline.herokuapp.com
