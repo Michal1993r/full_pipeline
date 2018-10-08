@@ -17,17 +17,9 @@ apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.richemont'
+group = 'com.mickl'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.11
-
-bootJar {
-    mainClassName = 'com.richemont.clustercartographytool.ClusterCartographyToolApplication'
-
-    from('C:/Sources/clustercartographytool/dist/clustercartographytool') {
-        into 'static'
-    }
-}
 
 repositories {
     mavenCentral()
