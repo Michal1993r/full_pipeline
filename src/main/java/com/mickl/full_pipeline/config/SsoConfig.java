@@ -10,7 +10,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 import static org.springframework.security.extensions.saml2.config.SAMLConfigurer.saml;
 
-@Profile("prod")
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled = true)
